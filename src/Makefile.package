@@ -1,0 +1,12 @@
+# Settings for libraries used by specific LAMMPS packages
+# this file is auto-edited when those packages are included/excluded
+
+PKG_INC =   -I../../lib/h5md/include 
+PKG_PATH =  -L../../lib/h5md 
+PKG_LIB =   -lch5md 
+PKG_CPP_DEPENDS = 
+PKG_LINK_DEPENDS = 
+
+PKG_SYSINC =  $(h5md_SYSINC) 
+PKG_SYSLIB =  $(h5md_SYSLIB) 
+PKG_SYSPATH = $(h5md_SYSPATH) 
